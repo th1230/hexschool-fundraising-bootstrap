@@ -1,0 +1,11 @@
+@import "../../node_modules/bootstrap/scss/functions";
+
+// 覆蓋預設變數
+
+@import "../../node_modules/bootstrap/scss/variables";
+
+@import "../../node_modules/bootstrap/scss/utilities";
+
+//修改utilities
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
