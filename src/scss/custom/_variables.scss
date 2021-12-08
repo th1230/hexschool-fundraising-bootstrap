@@ -1,0 +1,53 @@
+$white: #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #eeeeee;
+$gray-600: #858377;
+$gray-800: #373a3c;
+$gray-900: #494846;
+$black: $gray-900;
+
+$primary: #ffdf65;
+$secondary: $gray-600 !default;
+$success: #198754 !default;
+$info: #e8e8db;
+$warning: #ffc107 !default;
+$danger: #ff785e;
+$light: $gray-100 !default;
+$dark: #636057;
+
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer * 0.75,
+  4: $spacer,
+  5: $spacer * 1.25,
+  6: $spacer * 1.5,
+  7: $spacer * 1.75,
+  8: $spacer * 2,
+  9: $spacer * 2.25,
+  10: $spacer * 2.5,
+  11: $spacer * 2.75,
+  12: $spacer * 3,
+  14: $spacer * 3.5,
+  16: $spacer * 4,
+) !default;
+
+$body-bg: $white !default;
+$body-color: $gray-900 !default;
+$body-text-align: null !default;
+
+$border-radius-lg: 0.5rem;
+$border-radius-pill: 50rem !default;
+
+$btn-border-radius: $border-radius-pill;
+$btn-border-radius-sm: $border-radius-pill;
+$btn-border-radius-lg: $border-radius-pill;
+
+$btn-padding-y-lg: $spacer * 0.75;
+
+$font-family-sans-serif: "Noto Sans TC", sans-serif;
+$font-family-display: "Baloo Tamma 2", "Noto Sans TC", cursive;
+
+$font-size-base: 1rem !default;

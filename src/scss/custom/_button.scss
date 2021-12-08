@@ -1,0 +1,19 @@
+.btn-primary:hover {
+  background: $danger;
+  color: $white;
+}
+
+.btn-outline-secondary:hover {
+  background: $primary;
+  border-color: $primary;
+  color: $secondary;
+  .custom-icon {
+    color: $danger;
+  }
+}
+
+@each $color, $value in $theme-colors {
+  .btn-#{$color} {
+    color: $dark;
+  }
+}
